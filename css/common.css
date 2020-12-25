@@ -1,0 +1,102 @@
+/* 字体图标 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    background-color: #eee;
+}
+
+/* 版心 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #eee;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    /* width: 1px; */
+    height: 12px;
+    /* border: 1px solid #666; */
+    /* background-color: #666; */
+    margin: 0px 15px 0;
+}
+
+.arrow-icon::after {
+    content: '\e922';
+    font-family: 'icommon';
+    /* margin-left: 6px; */
+}
+
+/* header */
+
+.header {
+    position: relative;
+    height: 105px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+    /* background-color: #444; */
+}
+
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    font-size: 0;
+    background: url('../images/logo.png') no-repeat;
+}
+
+.search {
+    position: absolute;
+    top: 35px;
+    left: 346px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #c81623;
+}
+
+.search input {
+    width: 455px;
+    height: 31px;
+}
+
+.search button {
+    float: right;
+    width: 80px;
+    height: 31px;
+    background-color: #c81623;
+    color: #fff;
+}
