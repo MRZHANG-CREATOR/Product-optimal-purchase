@@ -51,9 +51,10 @@ body {
 }
 
 .arrow-icon::after {
-    content: '\e922';
-    font-family: 'icommon';
-    /* margin-left: 6px; */
+    font-size: 14px;
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 6px;
 }
 
 /* header */
@@ -81,22 +82,221 @@ body {
 
 .search {
     position: absolute;
-    top: 35px;
+    top: 25px;
     left: 346px;
-    width: 538px;
-    height: 36px;
-    border: 2px solid #c81623;
 }
 
 .search input {
-    width: 455px;
-    height: 31px;
+    float: left;
+    width: 454px;
+    height: 36px;
+    padding-left: 10px;
+    border: 2px solid #c81623;
 }
 
 .search button {
-    float: right;
+    float: left;
     width: 80px;
-    height: 31px;
+    height: 36px;
     background-color: #c81623;
     color: #fff;
+}
+
+.hotword {
+    position: absolute;
+    top: 66px;
+    left: 346px;
+}
+
+.hotword a {
+    margin: 0 10px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    line-height: 35px;
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+
+.shopcar::before {
+    content: '\e93a';
+    font-family: 'icomoon';
+}
+
+.shopcar::after {
+    content: '\e920';
+    font-family: 'icomoon';
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    left: 100px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0px;
+    background-color: #e60057;
+}
+
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+}
+
+.nav .dropdown .dt {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+}
+
+.nav .dropdown .dd {
+    display: none;
+    height: 465px;
+    width: 210px;
+    background-color: #b1191a;
+    margin-top: 2px;
+}
+
+.dropdown .dd ul li {
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.dropdown .dd ul li::after {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    content: '\e920';
+    font-family: icomoon;
+}
+
+.dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+
+.dropdown .dd ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.dropdown .dd ul li:hover after {
+    color: #b1191a;
+}
+
+.dropdown .dd ul li:hover a {
+    color: #b1191a;
+}
+
+.nav navitem {
+    float: right;
+}
+
+.navitem ul li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+}
+
+.navitem ul li a {
+    display: block;
+    height: 45px;
+    text-align: center;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.footer {
+    height: 415px;
+    padding-top: 30px;
+    background-color: #ddd;
+}
+
+.mod_serive {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_serive ul li {
+    float: left;
+    width: 300px;
+    height: 50px;
+    padding-left: 35px;
+}
+
+.mod_serive ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url('../images/icons.png') no-repeat -252.5px -2.5px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.service_txt h4 {
+    font-size: 14px;
+}
+
+.service_txt p {
+    font-size: 12px;
+}
+
+.mod_help {
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+
+.mod_help dl:last-child {
+    width: 90px;
+    text-align: center;
+}
+
+.mod_help dl:last-child img {
+    width: 80px;
+}
+
+.mod_help dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.links a {
+    margin: 0 10px;
+}
+
+.copyright {
+    line-height: 20px;
 }
