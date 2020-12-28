@@ -9,10 +9,6 @@
     font-display: block;
 }
 
-body {
-    background-color: #eee;
-}
-
 /* 版心 */
 
 .w {
@@ -168,7 +164,7 @@ body {
 }
 
 .nav .dropdown .dd {
-    display: none;
+    display: block;
     height: 465px;
     width: 210px;
     background-color: #b1191a;
